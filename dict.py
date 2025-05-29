@@ -37,3 +37,5 @@ del d2['topic']
 print(d2)
 d2.clear()
 print(d2)
+d2 = d1.copy()
+print(d2)
