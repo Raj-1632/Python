@@ -53,3 +53,6 @@ print(d2)
 
 print(d2.popitem())
 print(d2)
+
+d2.clear()
+print(d2)
