@@ -39,3 +39,17 @@ d2.clear()
 print(d2)
 d2 = d1.copy()
 print(d2)
+
+d2 = {}
+d2['name'] = 'Raj'
+d2['age'] = 20
+d2['city'] = 'Bhavnagar'
+
+print(d2.pop('name'))
+print(d2)
+
+print(d2.pop('age',20))
+print(d2)
+
+print(d2.popitem())
+print(d2)
