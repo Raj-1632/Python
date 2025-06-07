@@ -1,3 +1,4 @@
+#with parameter without return
 def fibonaci(number,a = 0,b = 1):
     next = b
     count = 0
