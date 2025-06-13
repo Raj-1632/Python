@@ -1,0 +1,25 @@
+import math as m
+x = float(input("Enter a Number : "))
+
+print(" ceil = ",m.ceil(x))
+print(" copysign = ",m.copysign(x,-4))
+print(" fabs = ",m.fabs(x))
+print(" factorial = ",m.factorial(int(x)))
+print(" floor = ",m.floor(x))
+print(" fmod = ",m.fmod(x, 2))
+print(" isfinite = ",m. isfinite(x))
+print(" isinf = ",m.isinf(x))
+print(" isnan = ",m.isnan(x))
+i = 2
+print(" ldexp = ",m.ldexp(x, i))
+print(" modf = ",m.modf(x))
+print(" trunc = ",m.trunc(x))
+print(" exp = ",m.exp(x))
+print(" expm1 = ",m.expm1(x))
+print(" log = ",m.log(x))
+print(" log1p= ",m.log1p(x))
+print(" log2 = ",m.log2(x))
+print(" log10 = ",m.log10(x))
+y = 2
+print(" pow = ",m.pow(x, y))
+print(" sqrt = ",m.sqrt(x))
