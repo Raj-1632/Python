@@ -4,10 +4,10 @@ import string as s
 def generate_password(length):
     
     if length < 4:
-        print("Password length must be at least 4.")
+        print(" Password length must be at least 4.")
         
     elif length > 20:
-        print("Password length must be at most 20.")
+        print(" Password length must be at most 20.")
 
     else:
         pw = [
@@ -16,7 +16,7 @@ def generate_password(length):
             r.choice(s.digits),
             r.choice(s.punctuation)
         ]
-
+ 
         r.shuffle(pw)
         
         for i in range(length - 4):
