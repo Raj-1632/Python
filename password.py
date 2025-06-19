@@ -20,7 +20,7 @@ def generate_password(length):
         r.shuffle(pw)
         
         for i in range(length - 4):
-            pw += [r.choice(s.ascii_letters + s.digits + s.punctuation)]
+            pw += [r.choice(s.ascii_uppercase + s.ascii_lowercase + s.digits + s.punctuation)]
         
         r.shuffle(pw)
 
