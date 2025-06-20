@@ -26,10 +26,10 @@ def generate_password(length):
         generated_password = ''.join(password)
         print("\n Password is",generated_password)
         print("\n Lenght of Password is",len(password))
-        save_password(generated_password)  # Call function to save password to file
+        save_password(generated_password)  
 
 
 def save_password(password):
     file_name = "generated_passwords.txt"
-    with open(file_name, 'a') as file:  # 'a' for append mode
+    with open(file_name, 'a') as file:  
         file.write(password + '\n')
